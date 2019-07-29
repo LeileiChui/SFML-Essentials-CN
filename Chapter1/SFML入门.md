@@ -61,8 +61,6 @@ int main(){
 sf::Uint32 style = sf::Style::Titlebar | sf::Style::Close;
 ```
 
-
-
 这里唯一要做的就是将该样式作为窗口构造的第三个参数传递。
 
 #### 环境设置
@@ -76,7 +74,6 @@ sf::Uint32 style = sf::Style::Titlebar | sf::Style::Close;
 - antialiasingLevel: 要求的多重采样级别数
 
 - majorVersion and minorVersion: 要求的 OpenGL 版本
-
 
 这些设置都将在第5章“操作二维相机”中得到更详细的解释，您将学习如何使用 OpenGL 直接渲染东西。
 
@@ -108,8 +105,6 @@ int main(){
 - 输入处理
 - 更新画面
 - 渲染画面
-
-
 
 SFML 中的输入处理可以通过捕获窗口发送的事件来完成，也可以通过直接查询输入设备的当前状态来完成。这两种方法都有不同的用途。例如，我们可能希望按下一个按钮的事件发生时关闭窗口，或者只要按下某个键 (直接查询按钮) 就将主人公向右移动。
 
